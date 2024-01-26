@@ -1,0 +1,23 @@
+{
+    "name": "takeru-yamamoto/env-loader",
+    "description": "Easy to load environment variables",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "autoload": {
+        "psr-4": {
+            "EnvLoader\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Takeru Yamamoto",
+            "email": "yamamo9150@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2.0",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "minimum-stability": "dev"
+}
